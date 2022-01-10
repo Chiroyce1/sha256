@@ -1,3 +1,4 @@
+/*
 function hash() {
 	document.getElementById("result").innerText = "hashing . . . "
 	stringg = document.getElementById("tbh").value
@@ -6,4 +7,18 @@ function hash() {
   	 .then((res) => {
 		document.getElementById("result").innerText = `${res.hash}`
  	 });
+}
+*/
+
+// haha more readable code go brr..
+
+const btn = document.getElementById("btn");
+const hash = document.getElementById("result");
+const string = document.getElementById("tbh");
+
+btn.onclick = async (e) => 
+	let res = await fetch(`https://sha256.chiroyce.repl.co/hash?string=${string.value}`);
+	let res = await res.json();
+	hash.innerText = res.hash;
+	
 }
