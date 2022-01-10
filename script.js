@@ -18,7 +18,7 @@ const string = document.getElementById("tbh");
 
 btn.onclick = async (e) => {
 	let res = await fetch(`https://sha256.chiroyce.repl.co/hash?string=${string.value}`);
-	let res = await res.json();
+	res = await res.json();
 	hash.innerText = res.hash;
 	
 }
