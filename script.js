@@ -12,9 +12,9 @@ function hash() {
 
 // haha more readable code go brr..
 
-const btn = document.getElementById("btn");
-const hash = document.getElementById("result");
-const string = document.getElementById("tbh");
+let btn = document.getElementById("btn");
+let hash = document.getElementById("result");
+let string = document.getElementById("tbh");
 
 btn.onclick = async (e) => {
 	let res = await fetch(`https://sha256.chiroyce.repl.co/hash?string=${string.value}`);
