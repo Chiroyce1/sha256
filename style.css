@@ -1,0 +1,42 @@
+/* font-family: 'Montserrat', sans-serif; */
+
+#heading {
+	font-family: 'Source Code Pro', monospace;
+	color: white;
+	font-size: 48px;
+}
+
+#description {
+	font-family: 'Source Code Pro', monospace;	
+	color: white;
+	font-size: 32px;
+}
+
+#result {
+    font-family: 'Source Code Pro', monospace;	
+	color: white;
+	font-size: 32px;
+}
+
+body {
+   background-color: #0c3078;
+} 
+
+#tbh {
+    font-family: 'Source Code Pro', monospace;
+	height: 100px;
+	width: 1000px;
+    font-size: 40pt;
+	box-sizing: border-box;
+}
+
+#btn {
+	font-family: 'Source Code Pro', monospace;
+	height: 100px;
+	width: 1001px;
+    font-size: 50pt;
+	color: white;
+	background-color: #0c3078;
+	box-sizing: border-box;
+	cursor: pointer; 
+}
